@@ -1,0 +1,27 @@
+------------start time------------
+2019. 10. 18. (금) 13:54:28 KST
+
+--------workload parameter--------
+nx=280
+ny=280
+nz=160
+lt=50
+nedge=25
+ncx_shot1=140
+ncy_shot1=140
+ncz_shot=70
+nxshot=1
+nyshot=1
+frequency=20.000000
+velmax=3500.000000
+dt=0.001000
+unit=10.000000
+dxshot=1
+dyshot=1
+
+shot=1
+
+run time:	1.550909 s
+
+------------end time------------
+2019. 10. 18. (금) 13:54:30 KST

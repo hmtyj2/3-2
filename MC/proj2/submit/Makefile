@@ -1,0 +1,16 @@
+CC=g++
+
+FFLAGS= -O3 -g -lm 
+FFFLAGS= -O3 -g -lm -fopenmp
+
+all: 3dew.cpp
+	$(CC) $(FFFLAGS) 3dew.cpp -o 3dew
+
+verify:verify.cpp
+	$(CC) -O3 -g verify.cpp -o verify -lm
+last: last.cpp
+	$(CC) $(FFFLAGS) last.cpp -o last
+
+clean:
+	rm -f 3dew
+	rm -f verify
